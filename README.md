@@ -41,7 +41,7 @@ It is not perfect but we will make best efforts with the best tools that we have
 
 <br>
 
-## The Process and Initial Analysis
+## Process and Initial Analysis
 
 The first step was to query a table from BigQuery, limited to data for December and January only, as well as information on the products, prices, transactions, revenue and geo location by continent.  I then imported that table to Python Jupyter notebooks to start exploring the data.
 
@@ -100,6 +100,8 @@ I retried the model once again by removing all the "product categories" and just
 As expected, these variables alone do not make a good model for predicting or explaining the total revenue. They probably need to be paired with marketing, ads and promotion data to yield a decent model.
 
 However, since I was able to draw a significant amount of analysis from the products data,  I was confident enough to make a recommendation based on that aspect to increase sales.
+
+### Recommendation
 
 I noticed that most of the products on offer and most of the products purchased were skewed a bit to males. Many of the products were either unisex or specifically labeled for men. Why not try to offer more products marketed towards women - and make them a bit more 'fun' and 'girly,' but still with the air of 'intelligent sleek simplicity' that the google brand is known for.  I may of course be biased to think that women buy more than men. But it might be worth a try. If not to also erase the assumption that women are not into 'tech' as much as males. Perhaps Google, as a leading tech company should make it a goal to attract more women into the industry. Offering more products that are more attractive to the average female might be a way to do this.  And it might also just increase sales.
 
