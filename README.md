@@ -80,7 +80,6 @@ Click [here](https://public.tableau.com/app/profile/ruby.rondina/viz/CapstonePro
 
 <p align="left"><img width="700" height="" src="https://github.com/RubyRondina/CapstoneProject/blob/main/Notebook%20and%20Viz/Dashboard.png"></p>
 
-<br>  
                                                  
 ### Regression Modelling Solution
 
