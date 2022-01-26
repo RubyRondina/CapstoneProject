@@ -1,20 +1,22 @@
-# Project 5: Google Analytics from the Google Merchandise E-commerce Store 
+# Project 5
+# Google Analytics from the Google Merchandise E-commerce Store 
 
 <br>
 
-<p align="left"><img width="400" height="" src="https://github.com/RubyRondina/CapstoneProject/blob/main/Notebook%20and%20Viz/GA360.png"></p>
-
-
+<p align="left"><img width="800" height="" src="https://github.com/RubyRondina/CapstoneProject/blob/main/Notebook%20and%20Viz/GoogleMerchWebsite.png"></p>
+    
                                                                                                                                                
 This is a study on the Google Analytics sample dataset housed on BigQuery Public.
 
 
-It is Analytics data from the Google Merchandise e-commerce Store from August 2016 to July 2017.  It contains 16 columns with several nested arrays within nested arrays.  Eeach field holds the following information: dates, visitor IDs, visit numbers, visit start times, hits, page views, bounces, time on site, transactions and product data, traffic source details, device information, geoNetworks and a "social engagement type" for each user.
+It is Analytics data from the **Google Merchandise E-commerce Store** from August 2016 to July 2017.  It contains 15 columns with several nested arrays within nested arrays.  The fields hold information on dates, visitor IDs, visit numbers, visit start times, hits, page views, bounces, time on site, transactions and product data, traffic source details, device information, geoNetworks and a social engagement type for each user.
 
-My main focus on this project is the REVENUE.
+My main focus on this project is the **REVENUE**.
 
-<p align="left"><img width="800" height="" src="https://github.com/RubyRondina/CapstoneProject/blob/main/Notebook%20and%20Viz/GoogleMerchWebsite.png"></p>
-       
+Jump directly to my **Python Jupyter Notebook** [here](https://github.com/RubyRondina/CapstoneProject/blob/main/Notebook%20and%20Viz/Capstone_Final.ipynb) to see the exploratory data analysis
+
+And click [here](https://public.tableau.com/app/profile/ruby.rondina/viz/CapstoneProject_16390620575680/Dashboard1) to access the  **Tableau dashboard**  
+   
 <br>
 
 ## The Question:  
@@ -25,7 +27,7 @@ And what recommendations can I propose to increase sales thereafter?
 
 ## Challenges
 
-My intent was to study the full year's worth of data.  The process of pulling queries using SQL directly on BigQuery in order to examine the full year's performance was quite painless and pretty straightforward.  However, since the project requirement called for exploratory data analysis using Python, I had to limit the study to only two month's worth of data.  This is due to the fact that Python is not as well optimized as SQL to process big data.  It took my machine almost one hour to import the full year's worth of data into Python.  We had less than a week to complete this project, so in order to save time and computer processing power, I only dealt with data from December 1, 2016 to January 31, 2017.
+My intent was to study the full year's worth of data.  The process of pulling queries using SQL directly on BigQuery in order to examine the full year's performance was quite painless and pretty straightforward.  However, in order to do modelling in Python, I had to limit the study to only two month's worth of data.  This is due to the fact that Python is not as well optimized as SQL to process big data.  It took my machine almost one hour to import the full year's worth of data into Python.  So in order to save time and computer processing power, I only dealt with data from December 1, 2016 to January 31, 2017.
 
 Another issue was that Google made some fields in this dataset obfuscated or removed for privacy reasons.  This is specifically data on marketing related details such as ads, promotions, campaigns, keyword searches and certain traffic sources.  I also discovered that the field for "social engagement type" was filled with "not socially engaged" users only. 
 
@@ -39,7 +41,8 @@ It is not perfect but we will make best efforts with the best tools that we have
 
 ## Process and Initial Analysis
 
-The first step was to query a table from BigQuery, limited to data for December and January only, as well as information on the products, prices, transactions, revenue and geo location by continent.  I then imported that table to Python Jupyter notebooks to start exploring the data.
+The first step was to query a 
+from BigQuery, limited to data for December and January only, as well as information on the products, prices, transactions, revenue and geo location by continent.  I then imported that table to Python Jupyter notebooks to start exploring the data.
 
 **See full Jupyter Notebook [here](https://github.com/RubyRondina/CapstoneProject/blob/main/Notebook%20and%20Viz/Capstone_Final.ipynb)**
 
