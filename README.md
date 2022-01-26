@@ -1,24 +1,20 @@
-# Capstone Project: 
-## Google Analytics, Google Merchandise E-commerce Store 
+# Project 5: Google Analytics from the Google Merchandise E-commerce Store 
 
 <br>
 
 <p align="left"><img width="400" height="" src="https://github.com/RubyRondina/CapstoneProject/blob/main/Notebook%20and%20Viz/GA360.png"></p>
 
-In this bootcamp capstone project, we were called to use our analytical and modelling skills in Python, as well as our graphic design and presentation skills in Tableau, in order to tell a deep story about a dataset of our choice.  
 
-<br>
+                                                                                                                                               
+This is a study on the Google Analytics sample dataset housed on BigQuery Public.
 
-## Dataset
 
-<p align="left"><img width="800" height="" src="https://github.com/RubyRondina/CapstoneProject/blob/main/Notebook%20and%20Viz/GoogleMerchWebsite.png"></p>
-                                                                                                                                                      
-I chose the Google Analytics sample dataset from BigQuery Public so that I could also flex my SQL muscles.
-                                                                                                                                                      This dataset contains Google Analytics 360 data from the Google Merchandise e-commerce Store.
-                                                                                                                                                      The raw data spans information from Aug. 2016 to July 2017, containing 16 columns with several nested arrays within nested arrays.  The fields contain  dates, visitor IDs, visit numbers, visit start times, hits, page views, bounces, time on site, transactions and product data, traffic source details, device information, geoNetworks and a supposed "social engagement type" for each user.
+It is Analytics data from the Google Merchandise e-commerce Store from August 2016 to July 2017.  It contains 16 columns with several nested arrays within nested arrays.  Eeach field holds the following information: dates, visitor IDs, visit numbers, visit start times, hits, page views, bounces, time on site, transactions and product data, traffic source details, device information, geoNetworks and a "social engagement type" for each user.
 
 My main focus on this project is the REVENUE.
 
+<p align="left"><img width="800" height="" src="https://github.com/RubyRondina/CapstoneProject/blob/main/Notebook%20and%20Viz/GoogleMerchWebsite.png"></p>
+       
 <br>
 
 ## The Question:  
